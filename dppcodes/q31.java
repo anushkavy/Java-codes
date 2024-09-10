@@ -28,6 +28,8 @@ public class q31 {
                     isSorted = false;
                 }
             }
+            if(isSorted)
+                break;
         }
         
         System.out.println("Array after Bubble Sorting: ");
